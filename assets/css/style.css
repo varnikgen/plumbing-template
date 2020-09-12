@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Russo+One&display=swap");
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    color: var(--color-text-primary)
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+}
+
+:root {
+    --palette-1: #0a403d;
+    --palette-2: #13948d;
+    --palette-3: #e8fbfa;
+    --palette-4: #eee;
+    --palette-5: #fff;
+    --palette-6: #92f2ed;
+    --color-text-primary: var(--palette-1);
+    --color-links-primary: var(--palette-2);
+    --color-bg-primary: var(--palette-5);
+    --color-bg-secondary: var(--palette-3);
+    --color-border-primary: var(--palette-4);
+    --color-border-secondary: var(--palette-2);
+}
+/* Header */
+#container, .responsive-wrapper{
+    max-width:1000px;
+    margin:0 auto;
+}
+
+.responsive-wrapper {
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    display: flex;
+    border-bottom: 2px solid var(--color-border-primary);
+    height: 92px;
+    border-top: 8px solid var(--color-border-secondary);
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.logo {
+    display: block;
+    padding-top: 20px;
+    margin-bottom: -20px;
+    height: 100px;
+}
+#header-nav {
+    display: flex;
+    align-items: center;
+}
+.header-nav-item {
+    margin-left: 1.5rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-decoration: none;
+    /*display: flex;*/
+    align-items: center;
+    height: 100%;
+    position: relative;
+    transition: color 0.15s ease;
+    display: none;
+}
+.header-nav-item:after {
+    content: "";
+    display: block;
+    height: 4px;
+    transform: scale(0);
+    background-color: var(--color-links-primary);
+    border-radius: 4px 4px 0 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transition: transform 0.25s ease;
+    transform-origin: bottom center;
+}
+.header-nav-item:hover, .header-nav-item:focus {
+    color: var(--color-links-primary);
+}
+.header-nav-item:hover:after, .header-nav-item:focus:after {
+    transform: scale(1);
+}
+@media all and (min-width: 500px) {
+    .header-nav-item {
+        display: flex;
+    }
+}
+.menu-toggle {
+    border: 1px solid;
+    border-bottom-width: 3px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+}
+.menu-toggle:before {
+    display: block;
+    content: "menu";
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    margin-right: 0.25rem;
+}
+@media all and (min-width: 500px) {
+    .menu-toggle {
+        display: none;
+    }
+}
+/*  Main-menu banner-block */
+#container{
+    padding:20px 0 0 220px;
+    box-sizing:border-box;
+}
+    #left{
+        width:250px;
+        height:auto;
+        z-index:15;
+        margin-left:-220px;
+        float:left;
+    }
+    #right{
+        width:100%;
+        float:left;
+        font-size:15px;
+    }
+    #right p{margin:0; padding:0 0 10px 0;}
+/* Вертикальное меню */
+#menuVertical {width: 100%; height: auto;}
+    #menuVertical ul {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: relative;
+    }
+    #menuVertical ul li{display:block; width:100%; height:auto;
+        position:relative;}
+            #menuVertical ul li a {
+                position: relative;
+                display: block;
+                width: 100%;
+                height: auto;
+                box-sizing: border-box;
+                font-size: 13px;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: var(--color-bg-primary);
+                line-height:1.2em;
+                padding:10px 15px;
+                background: var(--color-links-primary);
+                border-top:1px solid var(--color-text-primary);
+                text-decoration: none;
+            }
+            /*#menuVertical ul > li:first-child > a{border:0px;}*/
+            #menuVertical ul > li:last-child > a{
+                border-bottom:1px solid var(--color-text-primary);
+            }
+            #menuVertical ul li a:hover, #menuVertical ul li:hover a{
+                background: var(--color-bg-primary);
+                color: var(--color-text-primary);
+            }
+            #menuVertical ul li ul{
+                position:absolute;
+                top:0;
+                left:100%;
+                display:none;
+                width:100%;
+            }
+            /*******показываем выпадашку при наведении ********/
+            #menuVertical ul li:hover > ul{display:block;}
+                #menuVertical ul li ul li a{
+                    text-transform:none;
+                    padding:5px 20px;
+                }
+                    #menuVertical ul li ul li a:hover, #menuVertical ul li ul li:hover > a{
+                        background:#75C1D4;
+                        color:#0A3CC1;
+                    }
