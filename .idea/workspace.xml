@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e6d5bff-ea15-4397-b6e3-84b377739778" name="Default Changelist" comment="Добавил банер footer">
+    <list default="true" id="7e6d5bff-ea15-4397-b6e3-84b377739778" name="Default Changelist" comment="Снова всё переделываю">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hIjF8UExp0ar64pSQ1OwlKIPG1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,9 +50,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\nvarfolomeev.AMURSHIP\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7e6d5bff-ea15-4397-b6e3-84b377739778" name="Default Changelist" comment="" />
@@ -60,7 +65,9 @@
       <option name="presentableId" value="Default" />
       <updated>1599705394768</updated>
       <workItem from="1599705396963" duration="22340000" />
-      <workItem from="1599866015890" duration="18528000" />
+      <workItem from="1599866015890" duration="26081000" />
+      <workItem from="1600231526874" duration="9000" />
+      <workItem from="1600231554268" duration="6096000" />
     </task>
     <task id="LOCAL-00001" summary="Очередная попытка в шаблон">
       <created>1599886720279</created>
@@ -69,7 +76,35 @@
       <option name="project" value="LOCAL" />
       <updated>1599886720279</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил банер footer изменил container на flex а лево\право на block">
+      <created>1600062303754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600062303754</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Снова всё переделываю">
+      <created>1600238334263</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600238334263</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Снова всё переделываю">
+      <created>1600238467197</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600238467197</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Снова всё переделываю">
+      <created>1600238576590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600238576590</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,23 +120,34 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Очередная попытка в шаблон" />
-    <option name="LAST_COMMIT_MESSAGE" value="Очередная попытка в шаблон" />
+    <MESSAGE value="Добавил банер footer изменил container на flex а лево\право на block" />
+    <MESSAGE value="Снова всё переделываю" />
+    <option name="LAST_COMMIT_MESSAGE" value="Снова всё переделываю" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599876977688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599876977688" />
+    <state x="585" y="88" width="1203" height="863" key="CommitChangelistDialog2" timestamp="1600238857115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="88" width="1203" height="863" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600238857115" />
     <state x="-440" y="275" key="FileChooserDialogImpl" timestamp="1599788319964">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-440" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599788319964" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599886722062">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1600238839482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599886722062" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600238839482" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600238579544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600238579544" />
   </component>
 </project>
