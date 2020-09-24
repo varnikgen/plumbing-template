@@ -1,0 +1,91 @@
+:root {
+    --palette-1: #0a403d;
+    --palette-2: #13948d;
+    --palette-3: #e8fbfa;
+    --palette-4: #eee;
+    --palette-5: #fff;
+    --palette-6: #92f2ed;
+    --color-text-primary: var(--palette-1);
+    --color-links-primary: var(--palette-2);
+    --color-bg-primary: var(--palette-5);
+    --color-bg-secondary: var(--palette-3);
+    --color-border-primary: var(--palette-4);
+    --color-border-secondary: var(--palette-2);
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--color-text-primary);
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+body a {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+/* Container of document */
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Nav container */
+#logo a {
+    float: left;
+    display: initial;
+    margin: 0;
+    letter-spacing: 1px;
+    color: var(--color-links-primary);
+    font-size: 1em;
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+/* CSS Document */
+
+header {
+    /*position: absolute;*/
+    z-index: 9;
+    width: 100%;
+    background-color: var(--color-bg-primary);
+    border-top: 8px solid var(--color-border-secondary);
+}
+
+.toggle,
+[id^=drop] {
+    display: none;
+}
+
+/* Hide the navigation menu by default */
+/* Also hide the  */
+.toggle + a,
+.menu {
+    display: none;
+}

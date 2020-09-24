@@ -16,45 +16,50 @@
     <link href="../assets/css/font-awesome.css" rel="stylesheet">
     <!-- //font-awesome-icons -->
     <!-- /Fonts -->
-    <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <!-- //Fonts -->
 </head>
 <body>
 
 <header>
     <div class="container">
-        <div class="container-fluid">
-            <nav class="py-4">
-                <div id="logo">
-                    <h1><a href="index.html" class="editContent">Сантехника</a>
-                    </h1>
-                </div>
+        <nav class="py-4">
+            <div id="logo">
+                <h1><a href="#">Сантехника</a>
+                </h1>
+            </div>
 
-                <label for="drop" class="toggle">Menu</label>
-                <input type="checkbox" id="drop">
-                <ul class="menu mt-2">
-                    <li><a href="index.html">Корзина</a></li>
-                    <li><a href="contact.html">Вход</a></li>
-                </ul>
-            </nav>
-        </div>
+            <label for="drop" class="toggle">Menu</label>
+            <input type="checkbox" id="drop">
+            <ul class="menu mt-3">
+                <li><a href="#">Корзина</a></li>
+                <li><a href="#">Вход</a></li>
+            </ul>
+        </nav>
     </div>
 </header>
 <div class="container container-fluid my-3 under-header">
-
-    <div class="">
-        <div class="sidebar d-flex">
-            <a class="cd-dropdown-trigger btn1" href="#0">Каталог товаров</a>
-            <nav class="cd-dropdown">
-                <ul class="cd-dropdown-content">
-<!--                    <li><a href="http://codyhouse.co/?p=748">Page 1</a></li>-->
-<!--                    <li><a href="http://codyhouse.co/?p=748">Page 2</a></li>-->
-<!--                    <li><a href="http://codyhouse.co/?p=748">Page 3</a></li>-->
-                </ul> <!-- .cd-dropdown-content -->
-            </nav> <!-- .cd-dropdown -->
-        </div> <!-- .cd-dropdown-wrapper -->
+    <div class="drop-down drop__shadow">
+        <div class="dropdown-warp d-flex">
+            <a href="#" class="btn1 dropdown-toggle">Каталог товаров</a>
+        </div>
+        <ul class="drop-down-child drop__shadow menu_side" style="top: auto; opacity: 1">
+            <li class="menu__list"><img class="icon-menu" src="../assets/images/icon8.svg"><a href="#">Ванны</a>
+                <ul class="menu__drop drop__shadow">
+                    <li><a href="#">Чугунные</a></li>
+                    <li><a href="#">Пластиковые</a></li>
+                </ul>
+            </li>
+            <li><img class="icon-menu" src="../assets/images/icon18.svg"><a href="#">Водонагреватели</a></li>
+            <li class="menu__list"><img class="icon-menu" src="../assets/images/icon018.svg"><a href="#">Инструменты</a>
+                <ul class="menu__drop drop__shadow">
+                    <li><a href="#">Электроинструменты</a></li>
+                    <li><a href="#">Ручные инструменты</a></li>
+                </ul>
+            </li>
+            <li><img class="icon-menu" src="../assets/images/icon3.svg"><a href="#">Мойки и Раковины</a></li>
+            <li><img class="icon-menu" src="../assets/images/icon2.svg"><a href="#">Унитазы</a></li>
+        </ul>
     </div>
     <div class="search-bar mx-sm-3">
         <div class="w3layouts-newsletter">
@@ -64,6 +69,7 @@
             </form>
         </div>
     </div>
+
 </div>
 
 </body>
