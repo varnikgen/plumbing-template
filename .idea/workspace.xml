@@ -20,16 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e6d5bff-ea15-4397-b6e3-84b377739778" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/style-plumbing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icon018.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icon18.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icon2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icon3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icon8.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon018.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icon018.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icon2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icon3.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movies.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/moviesingle.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/moviesingle.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +55,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitWIP\CSS\plumbing\templates" />
       <recent name="D:\GitWIP\CSS\plumbing\assets\images" />
     </key>
   </component>
@@ -81,7 +80,7 @@
       <workItem from="1599705396963" duration="22340000" />
       <workItem from="1599866015890" duration="26081000" />
       <workItem from="1600231526874" duration="9000" />
-      <workItem from="1600231554268" duration="93727000" />
+      <workItem from="1600231554268" duration="110376000" />
     </task>
     <task id="LOCAL-00001" summary="Очередная попытка в шаблон">
       <created>1599886720279</created>
@@ -132,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600412702763</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Страдания со стилем">
+      <created>1600929134642</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600929134642</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,17 +162,18 @@
     <MESSAGE value="Снова всё переделываю" />
     <MESSAGE value="Строка поиска" />
     <MESSAGE value="Страдания с цветом и стилем" />
-    <option name="LAST_COMMIT_MESSAGE" value="Страдания с цветом и стилем" />
+    <MESSAGE value="Страдания со стилем" />
+    <option name="LAST_COMMIT_MESSAGE" value="Страдания со стилем" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599876977688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599876977688" />
-    <state x="585" y="88" width="1203" height="863" key="CommitChangelistDialog2" timestamp="1600412701676">
+    <state x="585" y="88" width="1203" height="863" key="CommitChangelistDialog2" timestamp="1600929133222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" width="1203" height="863" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600412701676" />
+    <state x="585" y="88" width="1203" height="863" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600929133222" />
     <state x="-440" y="275" key="FileChooserDialogImpl" timestamp="1599788319964">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -175,10 +182,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600741776525" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600412716967">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600929141099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600412716967" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600929141099" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1601001337542">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601001337542" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1600395370483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -22,6 +22,9 @@ body {
     font-size: 100%;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    /*background-color: #efefef;*/
+}
+.main_content {
     background-color: #efefef;
 }
 
@@ -260,6 +263,11 @@ nav .menu li a:hover{
     color: var(--teal) !important;
 }
 
+#menu_btn {
+    display: block;
+    align-items: center;
+    width: 100%;
+}
 
 /* Menu_side */
 .menu_side a{
@@ -344,13 +352,13 @@ nav .menu li a:hover{
 /* Fisrt Tier Dropdown */
 .drop-down {
     position: relative;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 .drop-down-child {
     /*display: none;*/
-    border-top: 20px solid var(--color-bg-primary);
-    border-bottom: 20px solid var(--color-bg-primary);
+    border-top: 1rem solid var(--color-bg-primary);
+    border-bottom: 1rem solid var(--color-bg-primary);
     position: absolute;
     width: 100%;
     min-width: 200px;
@@ -359,6 +367,7 @@ nav .menu li a:hover{
     top: -9999em;
     transition: 0.5s;
     border-radius: 0 0 5px 5px;
+    z-index: 9999;
 }
 .drop-down-child a, .drop-down-child li a{
     /*color: var(--color-bg-primary);*/
@@ -1002,8 +1011,8 @@ h4.group.card-title {
 ol.breadcrumb {
     background: none;
     margin: 0;
-    padding: 1em 2em;
-    background: #f7f7f7;
+    /*padding: 1em 2em;*/
+    /*background: #f7f7f7;*/
 }
 
 li.breadcrumb-item {
@@ -1306,7 +1315,7 @@ form.w3layouts-newsletter {
 
 .btn1 {
     color: var(--white);
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: 1px;
     /*padding: 14px 0;*/
     border: transparent;
@@ -1318,7 +1327,6 @@ form.w3layouts-newsletter {
     padding: 0.7em 2em;
     border-radius: 3px;
     white-space: nowrap;
-
 }
 
 .btn1:hover {
